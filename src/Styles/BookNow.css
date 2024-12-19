@@ -1,0 +1,200 @@
+/* Root variables are defined in your global CSS file */
+:root {
+  --primary-color: #ffff;
+  --after-primary-color: #140f05;
+  --secondary-color: #c5c5c5;
+  --highlight-color: #ff8c42;
+  --background-gradient: linear-gradient(to right, #060b18, #140f05);
+}
+
+.book-now-body {
+  background: var(--background-gradient);
+  color: var(--primary-color);
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.book-now-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.book-now-header h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+.book-now-details {
+  background-color: var(--after-primary-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: var(--primary-color);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.book-now-details h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.book-now-details p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.book-now-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.book-now-actions button {
+  background-color: var(--highlight-color);
+  border: none;
+  color: var(--primary-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.book-now-actions button:hover {
+  background-color: #e07b32;
+}
+
+.book-now-actions .cancel-button {
+  background-color: #d9534f;
+}
+
+.book-now-actions .cancel-button:hover {
+  background-color: #c9302c;
+}
+/* Payment Form Styles */
+.payment-form {
+  background-color: var(--after-primary-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  color: var(--primary-color);
+}
+
+.payment-form h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.payment-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.payment-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.payment-form .form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+}
+
+.payment-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.payment-actions button {
+  background-color: var(--highlight-color);
+  border: none;
+  color: var(--primary-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.payment-actions button:hover {
+  background-color: #e07b32;
+}
+
+.payment-actions .cancel-button {
+  background-color: #d9534f;
+}
+
+.payment-actions .cancel-button:hover {
+  background-color: #c9302c;
+}
+/* Payment Form Styles */
+.payment-form {
+  background-color: var(--after-primary-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  color: var(--primary-color);
+}
+
+.payment-form h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.payment-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.payment-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.payment-form .form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+}
+
+.payment-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.payment-actions button {
+  background-color: var(--highlight-color);
+  border: none;
+  color: var(--primary-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.payment-actions button:hover {
+  background-color: #e07b32;
+}
+
+.payment-actions .cancel-button {
+  background-color: #d9534f;
+}
+
+.payment-actions .cancel-button:hover {
+  background-color: #c9302c;
+}

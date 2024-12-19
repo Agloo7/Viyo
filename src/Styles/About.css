@@ -1,0 +1,163 @@
+/* Root colors for consistency */
+:root {
+  --primary-color: #ffff;
+  --after-primary-color: #140f05;
+  --secondary-color: #c5c5c5;
+  --highlight-color: #ff8c42;
+  --background-gradient: linear-gradient(to right, #060b18, #140f05);
+}
+
+.about-page-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* About Page Styles */
+/* General Page Styles */
+.about-page {
+  font-family: "Hind Guntur", serif;
+  color: var(--primary-color);
+  background: var(--background-gradient);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hero Section */
+.about-hero {
+  background-image: url("/public/Images/aboutback.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--primary-color);
+  padding: 60px 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: auto;
+  color: var(--after-secondary-color);
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+}
+
+/* About Us Section */
+.about-us {
+  margin: 40px 0;
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--highlight-color);
+}
+
+.about-us p {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Key Features Section */
+.about-features {
+  padding: 80px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature-item {
+  text-align: center;
+  width: 100%;
+  margin: 15px;
+}
+
+.feature-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: var(--highlight-color);
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+/* Team Section */
+.about-team {
+  margin: 40px 0;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  max-width: 200px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 1.3rem;
+  color: var(--highlight-color);
+  margin: 0;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Call-to-Action */
+.about-cta {
+  margin: 40px 0;
+}
+
+.about-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: var(--highlight-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #e76c29;
+}
